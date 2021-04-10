@@ -1,0 +1,182 @@
+body {
+    background-color: #505050;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23ee0a0a' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.fotometro {
+    background-color:rgba(252, 223, 223, 0.774);
+    padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: auto;
+}
+
+.contenedor1 {
+    width: 290px;
+    display: grid;
+    grid-template-columns: 58px 58px 58px 58px 58px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.contenedor2 {
+    width: 290px;
+    display: grid;
+    grid-template-columns: 58px 58px 58px 58px 58px;
+    margin: auto;
+}
+
+.contenedor3 {
+    width: 290px;
+    display: grid;
+    grid-template-columns: 58px 58px 58px 58px 58px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.nums {
+    font-family: arial;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 8px;
+    padding: 6px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.titulo1 {
+    background-color:rgba(150, 132, 132, 0.80);
+    color: rgb(0, 0, 0);
+    margin:auto;
+    font-family:sans-serif;
+    width: 290px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;   
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.titulo2 {
+    background-color:rgb(150, 132, 132, 0.80);
+    color: rgb(0, 0, 0);
+    margin:auto;
+    font-family:sans-serif;
+    width: 290px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px; 
+    border-radius: 5px;  
+}
+
+.select {
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+.camara {
+    background-color: rgba(253, 59, 59, 0.664);
+    padding: 8px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.titulo3 {
+    background-color:rgba(185, 32, 32, 0.829);
+    color: rgb(0, 0, 0);
+    margin:auto;
+    font-family:sans-serif;
+    width: 290px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;   
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 85px;
+    background-color: rgb(0, 0, 0);
+    font-family: arial;
+    font-size: medium;
+    font-weight: bold;
+    color:white;
+    border-radius: 10px;
+}
+
+.result {
+    opacity: .5;
+    background-color: rgba(34, 19, 77);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    left: 22px;
+    right: 0;
+    transform: translateX(1500px);
+    margin-top: 115px;
+    padding: 10px;
+}
+
+.showResult {
+    opacity: 1;
+    transition: .4s ease-in-out;
+    transform: translateX(0px);   
+}
+
+.all {
+    background-color: black;
+    opacity: .95;
+}
+
+.text {
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: x-large;
+    color:white;
+    text-align:center;
+}
+
+.btn {
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-bottom: 15px;
+
+}
+
+.item {
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    transition: .2s ease-in;
+}
+
+.nums:hover {
+    background-color: crimson;
+    color:white
+}
